@@ -27,5 +27,35 @@ public class PrimitiveLogicOperations {
     System.out.println("b1 || b2 = " + or);
     System.out.println("b1 ^ b2 = " + xor);
     System.out.println("!b1 = " + not);
+
+
+    // Operadores de comparación
+    //  que aplican tipos numérico, entero como flotante y a caracter
+    //  ==  igualdad 
+    // != no igualdad
+    // > <  mayor o menor estricto
+    // >= <=
+    int a = 5, b = 3;
+    boolean compare;
+    compare = a > b;
+    System.out.println("a =" + a + ", b = " + b + ", a > b =" + compare);
+
+    compare = a <  b;
+    System.out.println("a =" + a + ", b = " + b + ", a < b =" + compare);
+
+    compare = a >=  b;
+    System.out.println("a =" + a + ", b = " + b + ", a >= b =" + compare);
+
+    compare = a <=  b;
+    System.out.println("a =" + a + ", b = " + b + ", a <= b =" + compare);
+
+    double c = 1.5D, d = 1.50001;
+    System.out.println("c=" + c + ", d=" + d + ", c >= d = " + (c >= d));
+
+    long e = 50000L;
+    long f = 51500L;
+
+    compare = e != f;
+    System.out.println("e != f vale "  + compare);
   }
 }
