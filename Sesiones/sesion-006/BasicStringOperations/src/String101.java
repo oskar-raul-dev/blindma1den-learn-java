@@ -13,6 +13,8 @@ public class String101 {
     static String espacio = " ";
     static String apellido = "Perez";
     static String nombreCompleto = nombre + espacio  + apellido;
+                                // "Pedro " (nombre + espacio)
+                                // "Pedro_Perez"   n + apellido
 
     public static void main(String[] args){
         System.out.println("Nombre Completo =" + nombreCompleto);
@@ -24,6 +26,8 @@ public class String101 {
         int largo = s.length();
         System.out.println("El largo del string es " + largo);
 
+        System.out.println("El largo de vacio = " + vacio.length());
+
         // booleano que indica si el string es vacío
         boolean vacio = s.isEmpty();
         System.out.println("El string es vacío? " + vacio);
@@ -31,7 +35,8 @@ public class String101 {
         // concatenación como método (que es equivalente al + )
         String s1 = "hola ";
         String s2 = "mundo";
-        String s3 = s1.concat(s2);
+        String s3 = s1.concat(s2); //  Es lo miso a s1 + s2
+                                   // sobrecarga de operadores
         System.out.println("Mensaje concatenado " + s3);
     }
 

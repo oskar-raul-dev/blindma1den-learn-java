@@ -1,4 +1,4 @@
-public class LastIndexOf {
+public class IndexOf {
     public static void main(String[] args){
         String s1 = "This is a message";
 
@@ -13,5 +13,11 @@ public class LastIndexOf {
         String s2 = "This is a message. This is a second message";
         pos = s2.indexOf("me", 15);
         System.out.println("La segunda ocurrencia de \"me\" es pos = " + pos);
+
+        // lastIndex of es lo mismo que indexOf pero empieza a contar
+        // desde el final del string (de derecha a izquierda)
+        pos = s2.lastIndexOf("This");
+        System.out.println("La última ocurrencia de \"This\" es pos = " + pos);
+
     }
 }
