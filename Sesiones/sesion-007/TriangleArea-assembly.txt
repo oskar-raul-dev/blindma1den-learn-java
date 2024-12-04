@@ -1,0 +1,43 @@
+Compiled from "TriangleArea.java"
+public class TriangleArea {
+  public TriangleArea();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static double calculateArea(double, double);
+    Code:
+       0: dload_0
+       1: dload_2
+       2: dmul
+       3: ldc2_w        #7                  // double 2.0d
+       6: ddiv
+       7: dreturn
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: new           #9                  // class java/util/Scanner
+       3: dup
+       4: getstatic     #11                 // Field java/lang/System.in:Ljava/io/InputStream;
+       7: invokespecial #17                 // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+      10: astore_1
+      11: getstatic     #20                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      14: ldc           #24                 // String input base in cm:
+      16: invokevirtual #26                 // Method java/io/PrintStream.print:(Ljava/lang/String;)V
+      19: aload_1
+      20: invokevirtual #32                 // Method java/util/Scanner.nextDouble:()D
+      23: dstore_2
+      24: getstatic     #20                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      27: ldc           #36                 // String input height in cm:
+      47: dup
+      48: iconst_0
+      49: dload_2
+      50: dload         4
+      52: invokestatic  #40                 // Method calculateArea:(DD)D
+      55: invokestatic  #46                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+      58: aastore
+      59: invokevirtual #52                 // Method java/io/PrintStream.printf:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+      62: pop
+      63: return
+}

@@ -1,0 +1,11 @@
+Calculate area of a triangle
+
+1. Ask for Base
+2. Ask for Height
+3. Use the following formula
+   to calculate Triangle Area
+    Base x Height
+    -------------
+          2
+4. Print a text showing triangle
+   area with 3 digits
