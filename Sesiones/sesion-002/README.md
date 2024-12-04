@@ -1,4 +1,4 @@
-# Sesión 2
+# Sesión 002
 
 ## Hola mundo
 - Se vio ciclo de ejecución lenguajes compilados vs. lenguajes interpretados.

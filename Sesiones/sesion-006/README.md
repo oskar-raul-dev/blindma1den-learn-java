@@ -1,4 +1,4 @@
-# Sesión 06
+# Sesión 006
 
 ## Declaración de string
 

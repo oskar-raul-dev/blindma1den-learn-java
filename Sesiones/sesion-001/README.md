@@ -1,4 +1,4 @@
-# Sesión 1
+# Sesión 001
 
 En el código se revisó un ejemplo de hola mundo en node js, para explicar el 
 uso de un SDK.
